@@ -1329,7 +1329,7 @@
 	(footprint "Jarrett_Footprint_Library:TestPoint_Keystone_5016_Compact"
 		(layer "F.Cu")
 		(uuid "20589736-b7b7-4e7d-9b36-77d60e7fdbd8")
-		(at 193.04 74.676)
+		(at 191.262 74.676)
 		(descr "SMT Test Point- Compact 5016, http://www.keyelco.com/product-pdf.cfm?p=1357")
 		(tags "Test Point")
 		(property "Reference" "TP8"
@@ -7120,7 +7120,7 @@
 		(descr "SO, 8 Pin (https://www.nxp.com/docs/en/data-sheet/PCF8523.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SO SO")
 		(property "Reference" "U2"
-			(at 0 -3.4 360)
+			(at 0 -3.4 0)
 			(layer "F.SilkS")
 			(uuid "f4dc32dc-4fda-47af-b5b9-a415c3bb5193")
 			(effects
@@ -7131,7 +7131,7 @@
 			)
 		)
 		(property "Value" "LT1763CS8-2.5#PBF"
-			(at 0 3.4 360)
+			(at 0 3.4 0)
 			(layer "F.Fab")
 			(uuid "3075ed0a-f207-4e06-8e58-09b92570b569")
 			(effects
@@ -7142,7 +7142,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SO-8_3.9x4.9mm_P1.27mm"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "cf9d9a25-0251-44fc-a15c-df8d279dde93")
@@ -7155,7 +7155,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/1763fh.pdf"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "3ac0ad36-93ba-4ee4-8ddd-27da02181fcb")
@@ -7168,7 +7168,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "c4eb985a-6e11-4d07-8185-061bbacfd583")
@@ -7315,7 +7315,7 @@
 			(uuid "1df27941-6e7f-4712-a2b2-a4c3a7894917")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "7dfab3e2-c562-4d70-b6c7-788a7ec7f6f2")
 			(effects
@@ -8334,7 +8334,7 @@
 		(descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x03 2.54mm single row")
 		(property "Reference" "J2"
-			(at 0 -2.33 360)
+			(at 0 -2.33 0)
 			(layer "F.SilkS")
 			(uuid "8d41232c-9ca8-40b7-8ebd-9da5d4711959")
 			(effects
@@ -8345,7 +8345,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 0 7.41 360)
+			(at 0 7.41 0)
 			(layer "F.Fab")
 			(uuid "b81166e1-c7fe-45cd-ad64-fda49613e0ae")
 			(effects
@@ -8356,7 +8356,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "e7ccdb9a-77d5-478f-a51b-cc796d87798f")
@@ -8369,7 +8369,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "e27b0df8-5ad6-411f-a52f-5b383af06b93")
@@ -8382,7 +8382,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "791d27eb-700a-4e96-a0b3-a086b7c6b43b")
