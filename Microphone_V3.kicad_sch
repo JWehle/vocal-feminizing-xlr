@@ -4610,16 +4610,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 251.46) (xy 127 252.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12adb649-ad85-4467-853f-f4a26e99ff59")
-	)
-	(wire
-		(pts
 			(xy 130.81 218.44) (xy 130.81 214.63)
 		)
 		(stroke
@@ -5190,7 +5180,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 252.73) (xy 129.54 256.54)
+			(xy 138.43 241.3) (xy 138.43 242.57)
 		)
 		(stroke
 			(width 0)
@@ -6607,16 +6597,6 @@
 			(type default)
 		)
 		(uuid "f08f92c4-a7fe-4e82-9c3b-274a83d8f314")
-	)
-	(wire
-		(pts
-			(xy 127 252.73) (xy 129.54 252.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f171a936-343b-41cc-bbc9-f2a0a8426d6c")
 	)
 	(wire
 		(pts
@@ -8119,7 +8099,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 129.54 256.54 0)
+		(at 138.43 242.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8127,7 +8107,7 @@
 		(dnp no)
 		(uuid "287a07b4-1540-4c13-aa47-579abc60c31e")
 		(property "Reference" "#PWR09"
-			(at 129.54 262.89 0)
+			(at 138.43 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8136,7 +8116,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 129.54 260.35 0)
+			(at 138.43 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8144,7 +8124,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 256.54 0)
+			(at 138.43 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8153,7 +8133,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 256.54 0)
+			(at 138.43 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8162,7 +8142,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 129.54 256.54 0)
+			(at 138.43 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15313,7 +15293,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 127 251.46 0)
+		(at 138.43 241.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15321,7 +15301,7 @@
 		(dnp no)
 		(uuid "e7595f2b-ed81-4da2-868f-d9fa38131c0b")
 		(property "Reference" "TP4"
-			(at 124.46 243.84 0)
+			(at 135.89 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15330,7 +15310,7 @@
 			)
 		)
 		(property "Value" "5016"
-			(at 124.46 246.38 0)
+			(at 135.89 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15339,7 +15319,7 @@
 			)
 		)
 		(property "Footprint" "jannett_footprints:TestPoint_Keystone_5016_Compact"
-			(at 132.08 251.46 0)
+			(at 143.51 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15348,7 +15328,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 251.46 0)
+			(at 143.51 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15357,7 +15337,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 251.46 0)
+			(at 138.43 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
