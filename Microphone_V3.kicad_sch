@@ -3559,7 +3559,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:MMBFJ113"
+		(symbol "Transistor_FET:BF545A"
 			(pin_names
 				(hide yes)
 			)
@@ -3575,7 +3575,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "MMBFJ113"
+			(property "Value" "BF545A"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -3595,8 +3595,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MMBFJ113-D.PDF"
-				(at 0 0 0)
+			(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/BF545A_BF545B_BF545C.pdf"
+				(at 5.08 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3605,7 +3605,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "2mA min, 35V, 100mOhm max, 0.5-3V Vgs(off), N-Channel JFET, SOT-23"
+			(property "Description" "5mA Idss, 30V Vgs, N-Channel JFET, SOT-23"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3614,7 +3614,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "N-Channel FET Transistor"
+			(property "ki_keywords" "N-Channel FET Transistor Low Voltage"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3632,7 +3632,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "MMBFJ113_0_1"
+			(symbol "BF545A_0_1"
 				(polyline
 					(pts
 						(xy 0 0) (xy -1.016 0.381) (xy -1.016 -0.381) (xy 0 0)
@@ -3705,7 +3705,7 @@
 					)
 				)
 			)
-			(symbol "MMBFJ113_1_1"
+			(symbol "BF545A_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -3734,7 +3734,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3752,7 +3752,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4940,7 +4940,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 213.36) (xy 57.15 220.98)
+			(xy 55.88 213.36) (xy 55.88 220.98)
 		)
 		(stroke
 			(width 0)
@@ -5130,7 +5130,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 220.98) (xy 62.23 220.98)
+			(xy 55.88 220.98) (xy 62.23 220.98)
 		)
 		(stroke
 			(width 0)
@@ -5810,7 +5810,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 213.36) (xy 57.15 213.36)
+			(xy 52.07 213.36) (xy 55.88 213.36)
 		)
 		(stroke
 			(width 0)
@@ -9000,82 +9000,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:MMBFJ113")
-		(at 106.68 116.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3dff5798-84df-49ff-9cbd-381f4782e955")
-		(property "Reference" "Q1"
-			(at 111.76 116.205 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SST4416"
-			(at 111.76 118.745 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 111.76 118.745 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MMBFJ113-D.PDF"
-			(at 106.68 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 106.68 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3224ebd4-f998-4537-8d7c-176184a2f774")
-		)
-		(pin "2"
-			(uuid "f27b59d4-3d5d-4b98-a101-9e4bad2f4c0b")
-		)
-		(pin "3"
-			(uuid "7d289f70-8482-402d-9b8b-d456709a667c")
-		)
-		(instances
-			(project "Microphone_V3"
-				(path "/ebcb0268-4ead-4cb2-8398-369bee2e31f4"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 109.22 147.32 0)
 		(unit 1)
@@ -12143,28 +12067,28 @@
 			)
 		)
 		(pin "3"
-			(uuid "a7cf30e5-9070-4b16-946c-13494fded853")
+			(uuid "a7cf30e5-9070-4b16-946c-13494fded854")
 		)
 		(pin "8"
-			(uuid "ca87d79f-6b4c-4211-8f9d-3229b85bad2d")
+			(uuid "ca87d79f-6b4c-4211-8f9d-3229b85bad2e")
 		)
 		(pin "2"
-			(uuid "d6f0070d-9ec4-4f80-8800-b446f31810be")
+			(uuid "d6f0070d-9ec4-4f80-8800-b446f31810bf")
 		)
 		(pin "4"
-			(uuid "fc6c1057-c7d2-4f1b-a7d6-10e0d3c268fd")
+			(uuid "fc6c1057-c7d2-4f1b-a7d6-10e0d3c268fe")
 		)
 		(pin "1"
-			(uuid "40f6309b-5a1f-4138-90cb-8e63141e0256")
+			(uuid "40f6309b-5a1f-4138-90cb-8e63141e0257")
 		)
 		(pin "5"
-			(uuid "8e82b74e-17b3-4764-99a1-10778c68f675")
+			(uuid "8e82b74e-17b3-4764-99a1-10778c68f676")
 		)
 		(pin "6"
-			(uuid "cc992c3b-8c01-4eec-9603-1989a265caf6")
+			(uuid "cc992c3b-8c01-4eec-9603-1989a265caf7")
 		)
 		(pin "7"
-			(uuid "0a2d1459-8532-49ac-b7e4-fc3beff69c31")
+			(uuid "0a2d1459-8532-49ac-b7e4-fc3beff69c32")
 		)
 		(instances
 			(project ""
@@ -14694,16 +14618,16 @@
 			(uuid "eb2c3884-cb80-4ac3-8451-1edf1772a9c0")
 		)
 		(pin "2"
-			(uuid "63108f41-552a-4843-aeec-669db057e5ed")
+			(uuid "63108f41-552a-4843-aeec-669db057e5ee")
 		)
 		(pin "1"
-			(uuid "e80d727b-18e2-4436-a412-a4afe92ad9bf")
+			(uuid "e80d727b-18e2-4436-a412-a4afe92ad9c0")
 		)
 		(pin "5"
 			(uuid "65d69ac5-d97b-4222-ab14-5a904d013546")
 		)
 		(pin "3"
-			(uuid "cd6b89f7-bbaf-4fd1-84b3-4c378ed52efc")
+			(uuid "cd6b89f7-bbaf-4fd1-84b3-4c378ed52efd")
 		)
 		(pin "4"
 			(uuid "4c783bdc-a29c-4b34-b021-b083ebda3212")
@@ -15449,6 +15373,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:BF545A")
+		(at 106.68 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea26047d-9a15-4bf2-a865-e948d5fd8dcc")
+		(property "Reference" "Q1"
+			(at 111.76 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2SK209-GR(TE85L,F)"
+			(at 111.76 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 111.76 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/BF545A_BF545B_BF545C.pdf"
+			(at 111.76 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "5mA Idss, 30V Vgs, N-Channel JFET, SOT-23"
+			(at 106.68 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "80a78f92-364b-452c-a3ee-8bb3cd081335")
+		)
+		(pin "2"
+			(uuid "8d0001e5-e871-4e2d-9c36-365837cf017e")
+		)
+		(pin "1"
+			(uuid "5a9cfe87-61f9-4fd2-9449-a247b5c7259f")
+		)
+		(instances
+			(project ""
+				(path "/ebcb0268-4ead-4cb2-8398-369bee2e31f4"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 187.96 198.12 0)
 		(unit 1)
@@ -15902,7 +15902,7 @@
 			)
 		)
 		(pin "6"
-			(uuid "b2ee6abb-4a3d-4ede-a019-182ef973116d")
+			(uuid "b2ee6abb-4a3d-4ede-a019-182ef973116f")
 		)
 		(pin "2"
 			(uuid "e046d710-a267-4b4a-b0f3-dec123ec90ed")
@@ -15911,13 +15911,13 @@
 			(uuid "dd9a3c50-6ed2-41cf-9de2-ad0ccfb3bd57")
 		)
 		(pin "5"
-			(uuid "48c9143b-b93d-4563-b164-c57b46b64c0d")
+			(uuid "48c9143b-b93d-4563-b164-c57b46b64c0f")
 		)
 		(pin "3"
 			(uuid "3a86f6e2-7458-45f4-815f-1ac3647a09e6")
 		)
 		(pin "4"
-			(uuid "7443b7c8-14cd-4cc7-952d-fc418bcf253d")
+			(uuid "7443b7c8-14cd-4cc7-952d-fc418bcf253f")
 		)
 		(instances
 			(project "Microphone_V3"
@@ -15982,19 +15982,19 @@
 			)
 		)
 		(pin "3"
-			(uuid "a7cf30e5-9070-4b16-946c-13494fded853")
+			(uuid "a7cf30e5-9070-4b16-946c-13494fded855")
 		)
 		(pin "8"
-			(uuid "ca87d79f-6b4c-4211-8f9d-3229b85bad2d")
+			(uuid "ca87d79f-6b4c-4211-8f9d-3229b85bad2f")
 		)
 		(pin "2"
-			(uuid "d6f0070d-9ec4-4f80-8800-b446f31810be")
+			(uuid "d6f0070d-9ec4-4f80-8800-b446f31810c0")
 		)
 		(pin "4"
-			(uuid "fc6c1057-c7d2-4f1b-a7d6-10e0d3c268fd")
+			(uuid "fc6c1057-c7d2-4f1b-a7d6-10e0d3c268ff")
 		)
 		(pin "1"
-			(uuid "40f6309b-5a1f-4138-90cb-8e63141e0256")
+			(uuid "40f6309b-5a1f-4138-90cb-8e63141e0258")
 		)
 		(pin "5"
 			(uuid "e8bb8378-7abd-411e-bd28-c87006046778")
